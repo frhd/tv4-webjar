@@ -21,7 +21,7 @@
         <upstream.version>1.0.17</upstream.version>
         <upstream.url>scm:git:https://github.com/webjars/tv4.git</upstream.url>
         <tv4.sourceUrl>https://github.com/geraintluff/tv4/archive</tv4.sourceUrl>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${version}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
     </properties>
 
     <licenses>
